@@ -4,6 +4,6 @@ on:
   
 jobs:
   Build:
-    uses: satishbraju/mono/blob/main/.github/workflows/reuse@main
+    uses: satishbraju/mono/blob/main/.github/workflows/reuse.yaml@main
     with:
       secrets: inherit
