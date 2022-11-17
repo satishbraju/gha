@@ -9,4 +9,4 @@ jobs:
     - name: Run CI
       uses: satishbraju/mono/blob/main/.github/workflows/exp-c-CICD.yaml@main
       with:
-      secrets:inherit
+      secrets: inherit
