@@ -6,6 +6,10 @@ jobs:
     runs-on: ubuntu-latest
   
     steps:
+    
+    - name: checkout repo
+      uses: actions/checkout@v3
+      
     - name: Run CI
       uses: satishbraju/mono/blob/main/.github/workflows/exp-c-CICD.yaml@main
       with:
