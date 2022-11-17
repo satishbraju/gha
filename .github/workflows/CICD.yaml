@@ -5,5 +5,3 @@ on:
 jobs:
   Build:
     uses: satishbraju/mono/.github/workflows/reuse.yaml@main
-    with:
-      secrets: inherit
